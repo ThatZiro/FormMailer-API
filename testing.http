@@ -1,0 +1,12 @@
+POST localhost:3001/send
+Content-Type: application/json
+
+{
+  "email": "imbrandonbarnes@gmail.com",
+  "form": {
+    "name": "Testing Tester",
+    "email": "Testing@Test.com",
+    "phone": "123 456 7890",
+    "message": "This is a Test Message"
+  }
+}
